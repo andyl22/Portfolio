@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  margin: 0 auto;
+  flex: 0;
+  padding: .5em 2em;
+  align-items: center;
+  color: black;
+  width: 95%;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  z-index: 1;
+  justify-content: space-between;
+  .portfolio-name {
+    font-size: 2em;
+    font-weight: 600;
+    cursor: default;
+  }
+  .right-header {
+    display: flex;
+    .header-links {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+    a {
+      font-size: .9em;
+      font-weight: 600;
+      &:hover {
+        color: rgb(54, 95, 157);
+      }
+    }
+  }
+}

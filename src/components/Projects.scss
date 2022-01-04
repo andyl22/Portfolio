@@ -1,0 +1,22 @@
+.projects-list {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5em;
+  overflow-x: auto;
+  background: rgb(235, 239, 242);
+  border-radius: .5em;
+  padding: 1em 2em;
+  &::-webkit-scrollbar {
+    height: 12px;
+    background: rgb(199, 199, 199);
+    border-radius: .5em;
+    -webkit-overflow-scrolling: touch;
+  }
+  &::-webkit-scrollbar-track {
+    border-radius: .5em;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #ffb62f;
+    border-radius: .5em;
+  }
+}
