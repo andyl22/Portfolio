@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.d17a4afe.css",
+    "main.js": "/portfolio/static/js/main.7e05ec13.js",
+    "static/media/memory-card.png": "/portfolio/static/media/memory-card.798f10e348d4170ae09a.png",
+    "static/media/restaurant.png": "/portfolio/static/media/restaurant.0ba1eeaad43ca67cf860.png",
+    "static/media/headshot.jpg": "/portfolio/static/media/headshot.3ba279c89a2c57130276.jpg",
+    "static/media/drag-and-drop.png": "/portfolio/static/media/drag-and-drop.984a551ce1ed7e7d9dbb.png",
+    "static/media/youtube-replica.png": "/portfolio/static/media/youtube-replica.abc37c66ecd20b7b0b48.png",
+    "static/media/open-weather.png": "/portfolio/static/media/open-weather.ebf8e35d9259eee214d9.png",
+    "static/media/shopping-cart.png": "/portfolio/static/media/shopping-cart.230f55a9558bd7119646.png",
+    "static/media/etch-a-sketch.png": "/portfolio/static/media/etch-a-sketch.840823ff404c3b7ea3d2.png",
+    "static/media/simple-event-timeline.png": "/portfolio/static/media/simple-event-timeline.ad12d428880f0c258935.png",
+    "static/media/online-calculator.png": "/portfolio/static/media/online-calculator.029b87120d62021a0d8b.png",
+    "static/media/to-do-list.png": "/portfolio/static/media/to-do-list.59361e14303a5dbe8b50.png",
+    "index.html": "/portfolio/index.html",
+    "main.d17a4afe.css.map": "/portfolio/static/css/main.d17a4afe.css.map",
+    "main.7e05ec13.js.map": "/portfolio/static/js/main.7e05ec13.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d17a4afe.css",
+    "static/js/main.7e05ec13.js"
+  ]
+}
