@@ -5,10 +5,17 @@ import MultiSelect from "../assets/images/multi-select.png";
 import DragAndDrop from "../assets/images/drag-and-drop.png";
 import SimpleEventTimeline from "../assets/images/simple-event-timeline.png";
 import LikeButton from "../assets/images/like-button.png";
+import ImageSlider from "../assets/images/image-slider.png";
 
 export default function ComponentProjects() {
   return (
     <div className="projects-list">
+      <Project
+        name="Image Slider"
+        imageURL={ImageSlider}
+        link="https://andyl22.github.io/image-slider/"
+        description="Tab focus with enlarge image to modal"
+      />
       <Project
         name="Multi-Select Dropdown"
         imageURL={MultiSelect}
