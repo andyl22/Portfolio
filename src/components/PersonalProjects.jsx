@@ -10,7 +10,7 @@ export default function PersonalProjects() {
         name="Kanban Board"
         imageURL={KanbanBoard}
         link="https://andyl22-kanban-board.herokuapp.com/"
-        description="Basic MERN application deployed on heroku"
+        description="MERN App with react-beautiful-dnd"
       />
     </div>
   );

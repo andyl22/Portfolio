@@ -15,28 +15,10 @@ export default function OdinProjects() {
   return (
     <div className="projects-list">
       <Project
-        name="Youtube Video Replica"
-        imageURL={YoutubeReplica}
-        link="https://andyl22.github.io/youtube-video-replica/"
-        description="React repliica components"
-      />
-      <Project
-        name="Open Weather"
-        imageURL={OpenWeather}
-        link="https://andyl22.github.io/open-weather/"
-        description="Promises and async/await with the OpenWeather API"
-      />
-      <Project
         name="To-Do List"
         imageURL={ToDoList}
         link="https://andyl22.github.io/to-do-list/"
         description="Vanilla Javascript - localStorage of tasks and projects"
-      />
-      <Project
-        name="Flower Shop"
-        imageURL={FlowerShop}
-        link="https://andyl22.github.io/restaurant/"
-        description="React router tab-based shopping list"
       />
       <Project
         name="Etch-A-Sketch"
@@ -45,16 +27,16 @@ export default function OdinProjects() {
         description="Vanilla Javascript mouse callback events"
       />
       <Project
-        name="Online Calculator"
-        imageURL={Calculator}
-        link="https://andyl22.github.io/online-calculator/"
-        description="Vanilla Javascript switch-case for basic arithmetic"
+        name="Google Homepage"
+        imageURL={GoogleHomePage}
+        link="https://andyl22.github.io/reconstruct-google-homepage"
+        description="HTML/CSS replica of Google Homepage"
       />
       <Project
-        name="Memory Card"
-        imageURL={MemoryCard}
-        link="https://andyl22.github.io/memory-card/"
-        description="React useState - randomized card list and score keeping"
+        name="Youtube Video Replica"
+        imageURL={YoutubeReplica}
+        link="https://andyl22.github.io/youtube-video-replica/"
+        description="React repliica of Youtube"
       />
       <Project
         name="Restaurant Page"
@@ -63,10 +45,28 @@ export default function OdinProjects() {
         description="Vanilla Javascript - tab-based click events to render pages"
       />
       <Project
-        name="Google Homepage"
-        imageURL={GoogleHomePage}
-        link="https://andyl22.github.io/reconstruct-google-homepage"
-        description="Basic HTML/CSS replica of Google's Homepage"
+        name="Online Calculator"
+        imageURL={Calculator}
+        link="https://andyl22.github.io/online-calculator/"
+        description="Vanilla Javascript switch-case for basic arithmetic"
+      />
+      <Project
+        name="Open Weather"
+        imageURL={OpenWeather}
+        link="https://andyl22.github.io/open-weather/"
+        description="Promises and async/await with the OpenWeather API"
+      />
+      <Project
+        name="Flower Shop"
+        imageURL={FlowerShop}
+        link="https://andyl22.github.io/restaurant/"
+        description="React router tab-based shopping list"
+      />
+      <Project
+        name="Memory Card"
+        imageURL={MemoryCard}
+        link="https://andyl22.github.io/memory-card/"
+        description="React useState - randomized card list and score keeping"
       />
     </div>
   );

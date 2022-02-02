@@ -14,19 +14,19 @@ export default function ComponentProjects() {
         name="Image Slider"
         imageURL={ImageSlider}
         link="https://andyl22.github.io/image-slider/"
-        description="Tab focus with enlarge image to modal"
+        description="Tab focus with enlarged image"
       />
       <Project
         name="Multi-Select Dropdown"
         imageURL={MultiSelect}
         link="https://andyl22.github.io/multi-select/"
-        description="Multi-select built from scratch"
+        description="Multi-select"
       />
       <Project
         name="Drag And Drop"
         imageURL={DragAndDrop}
         link="https://andyl22.github.io/Drag-n-Drop-Form/"
-        description="Modal form with images drag-and-drop"
+        description="Form with images drag-and-drop"
       />
       <Project
         name="Like Button"

@@ -9,9 +9,9 @@ export default function Projects() {
   
   return (
     <section className="projects-container">
-      <ProjectSection sectionTitle="Personal Projects" projectList={<PersonalProjects/>} sectionDescription="Personal Projects"/>
-      <ProjectSection sectionTitle="React Components" projectList={<ComponentProjects/>} sectionDescription="React components"/>
-      <ProjectSection sectionTitle="The Odin Projects" projectList={<OdinProjects/>} sectionDescription="Main projects completed as part of TheOdinProject"/>
+      <ProjectSection sectionTitle="Personal Projects" projectList={<PersonalProjects/>}/>
+      <ProjectSection sectionTitle="React Components/Pages" projectList={<ComponentProjects/>}/>
+      <ProjectSection sectionTitle="The Odin Projects" projectList={<OdinProjects/>} sectionDescription="Cool/Favorite Projects completed as part of TheOdinProject"/>
     </section>
   )
 }
