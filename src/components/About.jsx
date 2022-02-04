@@ -7,7 +7,7 @@ export default function About() {
       <h1>About</h1>
       <p>
         From San Francisco, California. <br />
-        Passion for creating high quality front end pages and components.
+        Striving to learn more about development.
       </p>
     </div>
   )

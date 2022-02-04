@@ -39,7 +39,7 @@ export default function HomePage() {
           <p>
             <br />
             Hi. I'm Andy. <br /><br />
-            An aspiring front end professional developer.
+            An aspiring developer.
           </p>
         </div>
       </div>
