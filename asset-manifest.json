@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d17a4afe.css",
-    "main.js": "/portfolio/static/js/main.8afb1d29.js",
+    "main.js": "/portfolio/static/js/main.4dd79985.js",
     "static/media/memory-card.png": "/portfolio/static/media/memory-card.798f10e348d4170ae09a.png",
     "static/media/restaurant.png": "/portfolio/static/media/restaurant.0ba1eeaad43ca67cf860.png",
     "static/media/headshot.jpg": "/portfolio/static/media/headshot.3ba279c89a2c57130276.jpg",
@@ -17,10 +17,10 @@
     "static/media/kanban-board.png": "/portfolio/static/media/kanban-board.bfc6230222b1dbd6d6a1.png",
     "index.html": "/portfolio/index.html",
     "main.d17a4afe.css.map": "/portfolio/static/css/main.d17a4afe.css.map",
-    "main.8afb1d29.js.map": "/portfolio/static/js/main.8afb1d29.js.map"
+    "main.4dd79985.js.map": "/portfolio/static/js/main.4dd79985.js.map"
   },
   "entrypoints": [
     "static/css/main.d17a4afe.css",
-    "static/js/main.8afb1d29.js"
+    "static/js/main.4dd79985.js"
   ]
 }
