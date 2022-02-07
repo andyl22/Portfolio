@@ -6,12 +6,21 @@ import ComponentProjects from "./ComponentProjects";
 import ProjectSection from "./ProjectSection";
 
 export default function Projects() {
-  
   return (
     <section className="projects-container">
-      <ProjectSection sectionTitle="Personal Projects" projectList={<PersonalProjects/>}/>
-      <ProjectSection sectionTitle="React Components/Pages" projectList={<ComponentProjects/>}/>
-      <ProjectSection sectionTitle="The Odin Projects" projectList={<OdinProjects/>} sectionDescription="Cool/Favorite Projects completed as part of TheOdinProject"/>
+      <ProjectSection
+        sectionTitle="Personal Projects"
+        projectList={<PersonalProjects />}
+      />
+      <ProjectSection
+        sectionTitle="React Components/Pages"
+        projectList={<ComponentProjects />}
+      />
+      <ProjectSection
+        sectionTitle="The Odin Projects"
+        projectList={<OdinProjects />}
+        sectionDescription="Cool/Favorite Projects completed as part of TheOdinProject"
+      />
     </section>
-  )
+  );
 }

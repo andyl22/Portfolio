@@ -10,5 +10,5 @@ export default function About() {
         Striving to learn more about development.
       </p>
     </div>
-  )
+  );
 }

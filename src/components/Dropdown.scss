@@ -7,17 +7,26 @@
   border: 2px solid rgb(130, 95, 95);
   border-radius: 5px;
   right: -5px;
-  width: 100px;
+  width: fit-content;
   padding: 10px 10px;
   gap: 5px;
   transform: scaleY(0);
   transform-origin: top;
-  a {
-    background: #dfd3d3;
-    border-radius: 7px;
-    padding: 3px 8px;
-    font-weight: 600;
-    font-size: 15px;
+}
+
+.sm-link {
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+  padding: 0.2em 0.3em;
+  border-radius: 0.5em;
+  border: 1px solid rgb(216, 216, 216);
+  background: rgb(240, 240, 240);
+  font-size: 0.8em !important;
+  width: 100%;
+  &:hover {
+    cursor: pointer;
+    background: #dddddd;
   }
 }
 

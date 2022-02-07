@@ -5,7 +5,7 @@ import ProjectsContainer from "./ProjectsContainer";
 export default function ContentContainer() {
   return (
     <div className="content-container">
-      <ProjectsContainer/>
+      <ProjectsContainer />
     </div>
-  )
+  );
 }

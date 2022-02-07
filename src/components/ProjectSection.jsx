@@ -2,6 +2,7 @@ import React from "react";
 import "./ProjectSection.scss";
 
 export default function Projects(props) {
+  // eslint-disable-next-line react/prop-types
   const { sectionTitle, projectList, sectionDescription } = props;
 
   return (

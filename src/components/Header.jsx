@@ -1,7 +1,7 @@
 import React from "react";
 import PortfolioDropdown from "./PortfolioDropdown";
 import { Link } from "react-router-dom";
-import './Header.scss'
+import "./Header.scss";
 
 export default function Header() {
   return (

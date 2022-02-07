@@ -8,14 +8,14 @@ export default function PortfolioDropdown() {
   const dropDownRef = useRef();
 
   const handleClick = useCallback((e) => {
-    if(!dropDownRef.current.contains(e.target)) {
+    if (!dropDownRef.current.contains(e.target)) {
       document.removeEventListener("click", handleClick);
       setIsActive(false);
     }
-  },[])
+  }, []);
 
   const handleDropDown = () => {
-    if(!isActive) {
+    if (!isActive) {
       document.addEventListener("click", handleClick);
     } else {
       document.removeEventListener("click", handleClick);

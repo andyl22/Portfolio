@@ -3,6 +3,7 @@
 
 import { css, jsx } from "@emotion/react";
 import Header from "../components/Header";
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import Headshot from "../assets/images/headshot.jpg";
 
@@ -25,9 +26,9 @@ const half = css`
 
 const imageCSS = css`
   border-radius: 20em;
-  width: 350px;
-  height: 350px;
-`
+  width: 100px;
+  height: 100px;
+`;
 
 export default function HomePage() {
   return (
@@ -35,10 +36,11 @@ export default function HomePage() {
       <Header />
       <div css={background}>
         <div css={half}>
-          <img src={Headshot} alt="andy-face" css={imageCSS}/>
+          <img src={Headshot} alt="andy-face" css={imageCSS} />
           <p>
             <br />
-            Hi. I'm Andy. <br /><br />
+            Hi. I am Andy. <br />
+            <br />
             An aspiring developer.
           </p>
         </div>
