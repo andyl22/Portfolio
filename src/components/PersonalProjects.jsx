@@ -2,13 +2,14 @@ import React from "react";
 import Project from "./Project";
 import "./Projects.scss";
 import KanbanBoard from "../assets/images/kanban-board.png";
+import Ecommerce from "../assets/images/ecommerce.png"
 
 export default function PersonalProjects() {
   return (
     <div className="projects-list">
       <Project
         name="E-Commerce Shop"
-        imageURL={KanbanBoard}
+        imageURL={Ecommerce}
         link="https://parks-shop.herokuapp.com/"
         description="E-Commerce site built with Node.JS (In Development)"
       />
