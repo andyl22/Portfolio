@@ -1,7 +1,7 @@
 import React, { useState, useRef, useCallback } from "react";
 import "./PortfolioDropdown.scss";
 import Dropdown from "./Dropdown";
-import ListIcon from "@mui/icons-material/List";
+import ListIcon from "@mui/icons-material/Menu";
 
 export default function PortfolioDropdown() {
   const [isActive, setIsActive] = useState(false);

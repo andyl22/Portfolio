@@ -11,12 +11,19 @@ export default function Dropdown() {
 
   return (
     <div className="dropdown" ref={dropdownRef}>
-      <a href="https://github.com/andyl22" className="sm-link">
+      <a
+        href="https://github.com/andyl22"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="sm-link"
+      >
         <GitHubIcon fontSize="small" htmlColor="black" />
         Github
       </a>
       <a
         href="https://www.linkedin.com/in/andy-lau-b46570a8/"
+        target="_blank"
+        rel="noopener noreferrer"
         className="sm-link"
       >
         <LinkedInIcon fontSize="small" htmlColor="blue" />

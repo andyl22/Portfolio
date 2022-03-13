@@ -21,6 +21,8 @@ export default function Project(props) {
     <div className="project">
       <a
         href={link}
+        target="_blank"
+        rel="noopener noreferrer"
         onMouseEnter={addHoverEffect}
         onMouseLeave={removeHoverEffect}
       >
