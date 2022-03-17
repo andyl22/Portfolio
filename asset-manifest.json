@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f8928bdd.css",
-    "main.js": "/portfolio/static/js/main.aa3c0d5b.js",
+    "main.js": "/portfolio/static/js/main.ff7e8ebd.js",
     "static/media/ecommerce.png": "/portfolio/static/media/ecommerce.2b19233fe72d801aa98e.png",
     "static/media/memory-card.png": "/portfolio/static/media/memory-card.798f10e348d4170ae09a.png",
     "static/media/restaurant.png": "/portfolio/static/media/restaurant.0ba1eeaad43ca67cf860.png",
@@ -12,16 +12,15 @@
     "static/media/image-slider.png": "/portfolio/static/media/image-slider.0350325f71ea4a240b85.png",
     "static/media/shopping-cart.png": "/portfolio/static/media/shopping-cart.230f55a9558bd7119646.png",
     "static/media/etch-a-sketch.png": "/portfolio/static/media/etch-a-sketch.840823ff404c3b7ea3d2.png",
-    "static/media/simple-event-timeline.png": "/portfolio/static/media/simple-event-timeline.ad12d428880f0c258935.png",
     "static/media/online-calculator.png": "/portfolio/static/media/online-calculator.029b87120d62021a0d8b.png",
     "static/media/to-do-list.png": "/portfolio/static/media/to-do-list.59361e14303a5dbe8b50.png",
     "static/media/kanban-board.png": "/portfolio/static/media/kanban-board.bfc6230222b1dbd6d6a1.png",
     "index.html": "/portfolio/index.html",
     "main.f8928bdd.css.map": "/portfolio/static/css/main.f8928bdd.css.map",
-    "main.aa3c0d5b.js.map": "/portfolio/static/js/main.aa3c0d5b.js.map"
+    "main.ff7e8ebd.js.map": "/portfolio/static/js/main.ff7e8ebd.js.map"
   },
   "entrypoints": [
     "static/css/main.f8928bdd.css",
-    "static/js/main.aa3c0d5b.js"
+    "static/js/main.ff7e8ebd.js"
   ]
 }
