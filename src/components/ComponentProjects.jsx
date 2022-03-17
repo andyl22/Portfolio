@@ -3,7 +3,6 @@ import Project from "./Project";
 import "./Projects.scss";
 import MultiSelect from "../assets/images/multi-select.png";
 import DragAndDrop from "../assets/images/drag-and-drop.png";
-import SimpleEventTimeline from "../assets/images/simple-event-timeline.png";
 import LikeButton from "../assets/images/like-button.png";
 import ImageSlider from "../assets/images/image-slider.png";
 
@@ -33,12 +32,6 @@ export default function ComponentProjects() {
         imageURL={LikeButton}
         link="https://andyl22.github.io/like-button/"
         description="Like Button with API call"
-      />
-      <Project
-        name="Simple Event Timeline"
-        imageURL={SimpleEventTimeline}
-        link="https://andyl22.github.io/Simple-Event-Timeline/"
-        description="Simple container search page created using React"
       />
     </div>
   );
