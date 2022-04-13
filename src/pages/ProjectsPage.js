@@ -3,7 +3,7 @@
 
 import { css, jsx } from "@emotion/react";
 import Header from '../components/Header';
-import ContentContainer from '../components/ContentContainer';
+import ProjectsContainer from '../components/ProjectsContainer';
 
 export default function ProjectsPage() {
 
@@ -14,7 +14,7 @@ export default function ProjectsPage() {
   return (
     <main css={main}>
       <Header />
-      <ContentContainer />
+      <ProjectsContainer />
     </main>
   );
 }

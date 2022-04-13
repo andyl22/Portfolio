@@ -1,33 +1,43 @@
 header {
-  display: flex;
-  margin: 0 auto;
-  flex: 0;
-  padding: 0.5em 2em;
-  align-items: center;
-  width: 95%;
-  color: white;
-  border-bottom: 1px solid rgb(220, 220, 220);
-  z-index: 1;
-  justify-content: space-between;
-  .portfolio-name {
-    font-size: 2em;
-    font-weight: 600;
-    cursor: default;
-  }
-  .right-header {
+  width: 100%;
+  background: #817f7a;
+  .header-content {
+    margin: 0 auto;
+    flex: 0;
     display: flex;
-    .header-links {
-      display: flex;
-      align-items: center;
-      gap: 30px;
-    }
-    a {
-      font-size: 0.9em;
+    flex-wrap: wrap;
+    padding: 0.8rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    color: white;
+    border-bottom: 2px solid rgb(220, 220, 220);
+    z-index: 1;
+    .portfolio-name {
+      font-size: 2em;
       font-weight: 600;
-      color: white;
-      &:hover {
-        color: #ffb4b4;
+      cursor: default;
+      padding-right: 1rem;
+      word-spacing: 0.5rem;
+    }
+    .right-header {
+      display: flex;
+      .header-links {
+        display: flex;
+        align-items: center;
+        gap: 30px;
       }
+      a {
+        font-size: 0.9em;
+        font-weight: 600;
+        color: white;
+        &:hover {
+          color: #ffb4b4;
+        }
+      }
+    }
+    @media (max-width: 600px) {
+      justify-content: center;
     }
   }
 }
