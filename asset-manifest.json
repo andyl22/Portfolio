@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.17e79d67.css",
-    "main.js": "/portfolio/static/js/main.0346ff46.js",
+    "main.css": "/portfolio/static/css/main.ff60d326.css",
+    "main.js": "/portfolio/static/js/main.c92ad4c0.js",
     "static/media/ecommerce.png": "/portfolio/static/media/ecommerce.2b19233fe72d801aa98e.png",
     "static/media/memory-card.png": "/portfolio/static/media/memory-card.798f10e348d4170ae09a.png",
     "static/media/restaurant.png": "/portfolio/static/media/restaurant.0ba1eeaad43ca67cf860.png",
@@ -16,11 +16,11 @@
     "static/media/to-do-list.png": "/portfolio/static/media/to-do-list.59361e14303a5dbe8b50.png",
     "static/media/kanban-board.png": "/portfolio/static/media/kanban-board.bfc6230222b1dbd6d6a1.png",
     "index.html": "/portfolio/index.html",
-    "main.17e79d67.css.map": "/portfolio/static/css/main.17e79d67.css.map",
-    "main.0346ff46.js.map": "/portfolio/static/js/main.0346ff46.js.map"
+    "main.ff60d326.css.map": "/portfolio/static/css/main.ff60d326.css.map",
+    "main.c92ad4c0.js.map": "/portfolio/static/js/main.c92ad4c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.17e79d67.css",
-    "static/js/main.0346ff46.js"
+    "static/css/main.ff60d326.css",
+    "static/js/main.c92ad4c0.js"
   ]
 }
