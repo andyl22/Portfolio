@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import "./Dropdown.scss";
+import "./PortfolioDropdownContent.scss";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 

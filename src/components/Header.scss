@@ -2,10 +2,10 @@ header {
   display: flex;
   margin: 0 auto;
   flex: 0;
-  padding: .5em 2em;
+  padding: 0.5em 2em;
   align-items: center;
-  color: black;
   width: 95%;
+  color: white;
   border-bottom: 1px solid rgb(220, 220, 220);
   z-index: 1;
   justify-content: space-between;
@@ -22,10 +22,11 @@ header {
       gap: 30px;
     }
     a {
-      font-size: .9em;
+      font-size: 0.9em;
       font-weight: 600;
+      color: white;
       &:hover {
-        color: rgb(54, 95, 157);
+        color: #ffb4b4;
       }
     }
   }

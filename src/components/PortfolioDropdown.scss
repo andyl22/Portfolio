@@ -2,12 +2,18 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  span {
+  .dropdown-button {
+    position: relative;
+    top: .2rem;
+    background: none;
+    border: none;
+    color: white;
     position: relative;
     .list-button {
       border-radius: 20px;
       &:hover {
         cursor: pointer;
+        color: #ffb4b4;
       }
     }
     .hovered-button {

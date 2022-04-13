@@ -1,6 +1,6 @@
 import React, { useState, useRef, useCallback } from "react";
 import "./PortfolioDropdown.scss";
-import Dropdown from "./Dropdown";
+import PortfolioDropdownContent from "./PortfolioDropdownContent";
 import ListIcon from "@mui/icons-material/Menu";
 
 export default function PortfolioDropdown() {
@@ -25,13 +25,13 @@ export default function PortfolioDropdown() {
 
   return (
     <div className="dropdown-container">
-      <span ref={dropDownRef}>
+      <button ref={dropDownRef} className="dropdown-button">
         <ListIcon
           onClick={handleDropDown}
           className={isActive ? "list-button hovered-button" : "list-button"}
         />
-        {isActive && <Dropdown />}
-      </span>
+        {isActive && <PortfolioDropdownContent />}
+      </button>
     </div>
   );
 }

@@ -12,6 +12,12 @@
   gap: 5px;
   transform: scaleY(0);
   transform-origin: top;
+  a {
+    color: black !important;
+    &:hover {
+      color: rgb(184, 179, 179) !important;
+    }
+  }
 }
 
 .sm-link {
