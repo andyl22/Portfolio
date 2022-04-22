@@ -36,7 +36,7 @@ export default function OdinProjects() {
         name="Youtube Video Replica"
         imageURL={YoutubeReplica}
         link="https://andyl22.github.io/youtube-video-replica/"
-        description="React repliica of Youtube"
+        description="React replica of Youtube video page"
       />
       <Project
         name="Restaurant Page"

@@ -11,7 +11,6 @@ export default function Header() {
         <div className="right-header">
           <div className="header-links">
             <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
             <Link to="/projects">Projects</Link>
             <PortfolioDropdown />
           </div>

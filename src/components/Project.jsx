@@ -1,40 +1,27 @@
-import React, { useRef } from "react";
+import React, { useState } from "react";
 import "./Project.scss";
 
 export default function Project(props) {
   // eslint-disable-next-line react/prop-types
   const { name, imageURL, link, description } = props;
-  const imgRef = useRef();
-  const textRef = useRef();
+  const [showDetails, setShowDetails] = useState(false);
 
-  const addHoverEffect = () => {
-    imgRef.current.classList.add("img-hovered-effect");
-    textRef.current.classList.add("text-hovered-effect");
-  };
-
-  const removeHoverEffect = () => {
-    imgRef.current.classList.remove("img-hovered-effect");
-    textRef.current.classList.remove("text-hovered-effect");
+  const toggleContents = () => {
+    setShowDetails(!showDetails);
   };
 
   return (
-    <div className="project">
-      <a
-        href={link}
-        target="_blank"
-        rel="noopener noreferrer"
-        onMouseEnter={addHoverEffect}
-        onMouseLeave={removeHoverEffect}
-      >
-        <h2 ref={textRef}>{name}</h2>
-        <img
-          src={imageURL}
-          alt={name}
-          id={name}
-          draggable={false}
-          ref={imgRef}
-        />
-        <label htmlFor={name}>{description}</label>
+    <div
+      className="project"
+      onMouseEnter={toggleContents}
+      onMouseLeave={toggleContents}
+    >
+      <a href={link} target="_blank" rel="noopener noreferrer">
+        <h2>{name}</h2>
+        <div className="imageContainer">
+          <img src={imageURL} alt={name} id={name} draggable={false} />
+          {showDetails ? <p>{description}</p> : null}
+        </div>
       </a>
     </div>
   );

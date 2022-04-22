@@ -13,25 +13,25 @@ export default function ComponentProjects() {
         name="Image Slider"
         imageURL={ImageSlider}
         link="https://andyl22.github.io/image-slider/"
-        description="Tab focus with enlarged image"
+        description="Keyboard navigation and image enlargement modal"
       />
       <Project
-        name="Multi-Select Dropdown"
+        name="Multi-Select"
         imageURL={MultiSelect}
         link="https://andyl22.github.io/multi-select/"
-        description="Multi-select"
+        description="Built from scratch that supports data sourcing from an API"
       />
       <Project
         name="Drag And Drop"
         imageURL={DragAndDrop}
         link="https://andyl22.github.io/Drag-n-Drop-Form/"
-        description="Form with images drag-and-drop"
+        description="Drag images in a form with HTML5 Drag and Drop API"
       />
       <Project
         name="Like Button"
         imageURL={LikeButton}
         link="https://andyl22.github.io/like-button/"
-        description="Like Button with API call"
+        description="Simple animated heart icon with a basic API call setup"
       />
     </div>
   );

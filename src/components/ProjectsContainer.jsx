@@ -13,11 +13,11 @@ export default function Projects() {
         projectList={<PersonalProjects />}
       />
       <ProjectSection
-        sectionTitle="React Components/Pages"
+        sectionTitle="Random Components"
         projectList={<ComponentProjects />}
       />
       <ProjectSection
-        sectionTitle="The Odin Projects"
+        sectionTitle="The Odin Project"
         projectList={<OdinProjects />}
         sectionDescription="Cool/Favorite Projects completed as part of TheOdinProject"
       />

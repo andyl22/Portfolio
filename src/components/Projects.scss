@@ -1,22 +1,23 @@
 .projects-list {
   display: flex;
   justify-content: flex-start;
-  gap: 5em;
   overflow-x: auto;
   background: rgb(235, 239, 242);
-  border-radius: .5em;
-  padding: 1em 2em;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  padding: 2rem 3rem;
+  gap: 4rem;
   &::-webkit-scrollbar {
     height: 12px;
     background: #c98b17;
-    border-radius: .5em;
+    border-radius: 0.5em;
     -webkit-overflow-scrolling: touch;
   }
   &::-webkit-scrollbar-track {
-    border-radius: .5em;
+    border-radius: 0.5em;
   }
   &::-webkit-scrollbar-thumb {
     background: #ffb62f;
-    border-radius: .5em;
+    border-radius: 0.5em;
   }
 }

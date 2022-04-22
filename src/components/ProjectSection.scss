@@ -1,8 +1,17 @@
 .project-section {
   flex: 1;
-  padding: 20px 20px;
+  padding: 0 5rem;
   position: relative;
   .section-info {
-    padding: 0 0 15px 0;
+    background: rgb(221, 196, 150);
+    padding: 1.5rem 0;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    h1 {
+      font-family: "Plus Jakarta Sans", sans-serif;
+    }
+    p {
+      margin-top: .4rem;
+    }
   }
 }

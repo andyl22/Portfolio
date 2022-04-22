@@ -1,29 +1,53 @@
+$height: 225px;
+$width: 225px;
+$radius: 0.3rem;
+
+@keyframes growIn {
+  0% {
+    transform: scaleY(30%);
+  }
+  100% {
+    transform: scaleY(100%);
+  }
+}
+
 .project {
-  max-width: 200px;
-  label {
-    font-weight: 600;
-  }
+  width: $width;
   h2 {
-    color: #1c56ad;
-    text-decoration: underline;
-    margin-bottom: .5rem;
+    color: #001a41;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
     font-weight: 700;
+    font-family: "Plus Jakarta Sans", sans-serif;
   }
-  img {
-    border: 1px solid rgb(202, 202, 202);
-    border-radius: 15px;
-    height: 200px;
-    width: 200px;
-    margin-bottom: 0.5em;
+  .imageContainer {
+    position: relative;
+    img {
+      border: 1px solid rgb(202, 202, 202);
+      border-radius: $radius;
+      height: $height;
+      width: $width;
+      margin-bottom: 0.5em;
+    }
+    p {
+      display: flex;
+      padding: 1rem;
+      align-items: center;
+      justify-content: center;
+      top: 0;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #ffffff;
+      border-radius: $radius;
+      font-weight: 600;
+      font-size: 1.1rem;
+      transform-origin: bottom;
+      animation: growIn 0.2s ease-out;
+    }
   }
-  .img-hovered-effect {
-    box-shadow: 2px 2px 8px rgb(179, 178, 178);
-    transform: scale(1.01);
-    transition: 0.1s ease-in;
-  }
-  .text-hovered-effect {
-    color: #06295c;
-    transform: scale(1.01);
-    transition: 0.1s ease-in;
+  label {
+    font-size: 1rem;
   }
 }
