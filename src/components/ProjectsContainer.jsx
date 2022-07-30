@@ -13,7 +13,7 @@ export default function Projects() {
         projectList={<PersonalProjects />}
       />
       <ProjectSection
-        sectionTitle="Random Components"
+        sectionTitle="Components"
         projectList={<ComponentProjects />}
       />
       <ProjectSection
