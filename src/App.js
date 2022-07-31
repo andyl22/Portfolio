@@ -15,20 +15,12 @@ const main = css`
   align-items: center;
   padding: 2rem 0;
   font-size: 1.6rem;
-  p {
-    font-size: 1.2rem;
-    p {
-      padding: 2rem;
-      max-width: 850px;
-      margin: 0 auto;
-    }
-    a {
-      color: #2674df;
-      &:hover {
-        color: #4894fb;
-      }
-    }
-  }
+`;
+
+const aboutText = css`
+  max-width: 700px;
+  font-size: 1rem;
+  padding: 0 2rem 2rem 2rem;
 `;
 
 const imageCSS = css`
@@ -43,26 +35,16 @@ export default function HomePage() {
       <Header />
       <main css={main}>
         <img src={Headshot} alt="andy-face" css={imageCSS} />
-        <p>
+        <p css={aboutText}>
           <br />
-          <b>{`Hi. I'm Andy.`}</b> <br />
           <br />
-          <p>
-            {`I'm an amateur web developer seeking entry level opportunities in front end development.`}
-            <br />
-            <br />
-            {`Since graduating from college in 2019,
-            I've worked with software service companies in various capacities, including implementations, product management, and quality assurance.`}
-            <br />
-            <br />
-            {`While I've enjoyed those roles, I would love to learn and practice programming full-time!`}
-            <br />
-            <br />
-            {`Feel free to check out projects, components, and pages I've worked on below!`}
-            <br />
-            <br />
-          </p>
+          {`Amateur web developer open to entry level or associate opprotunities.`}
           <br />
+          <br />
+          {`I graduated in 2019 and have worked at software technology companies since. My primary professional experience is in managing customer implementation projects, product analytics, and testing software.`}
+          <br />
+          <br />
+          {`Check out projects, components, and pages I've worked on below. Any feedback is welcome`}
         </p>
         <ProjectsContainer />
       </main>

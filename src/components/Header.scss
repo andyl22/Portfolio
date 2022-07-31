@@ -36,8 +36,10 @@ header {
         }
       }
     }
-    @media (max-width: 600px) {
-      justify-content: center;
+    @media (max-width: 350px) {
+      .portfolio-name {
+        font-size: 1rem;
+      }
     }
   }
 }

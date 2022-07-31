@@ -20,4 +20,7 @@
     background: #ffb62f;
     border-radius: 0.5em;
   }
+  @media (max-width: 550px) {
+    flex-wrap: wrap;
+  }
 }
