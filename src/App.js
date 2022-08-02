@@ -1,11 +1,10 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 
-import { css, jsx } from "@emotion/react";
+import { css, keyframes, jsx } from "@emotion/react";
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import Header from "./components/Header";
-import Headshot from "./assets/images/headshot.jpg";
 import ProjectsContainer from "./components/ProjectsContainer";
 
 const main = css`
@@ -13,20 +12,29 @@ const main = css`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem 0;
   font-size: 1.6rem;
+  padding-bottom: 5rem;
+`;
+
+const animation = keyframes`
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+  }
 `;
 
 const aboutText = css`
   max-width: 700px;
   font-size: 1rem;
   padding: 0 2rem 2rem 2rem;
+  animation: ${animation} 1s ease-in;
 `;
 
-const imageCSS = css`
-  border-radius: 1em;
-  width: 100px;
-  height: 100px;
+const projectsWrapper = css`
+  animation: ${animation} 1.5s ease-in;
 `;
 
 export default function HomePage() {
@@ -34,19 +42,17 @@ export default function HomePage() {
     <>
       <Header />
       <main css={main}>
-        <img src={Headshot} alt="andy-face" css={imageCSS} />
         <p css={aboutText}>
           <br />
           <br />
           {`Amateur web developer open to entry level or associate opprotunities.`}
           <br />
           <br />
-          {`I graduated in 2019 and have worked at software technology companies since. My primary professional experience is in managing customer implementation projects, product analytics, and testing software.`}
-          <br />
-          <br />
-          {`Check out projects, components, and pages I've worked on below. Any feedback is welcome`}
+          {`I graduated in 2019 and have worked in software implementation, analytics, and testing since.`}
         </p>
-        <ProjectsContainer />
+        <div css={projectsWrapper}>
+          <ProjectsContainer />
+        </div>
       </main>
     </>
   );

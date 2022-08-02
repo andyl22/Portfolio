@@ -11,14 +11,21 @@ header {
     align-items: center;
     width: 80%;
     color: white;
-    border-bottom: 2px solid rgb(220, 220, 220);
+    border-bottom: 0.2rem solid rgb(14, 15, 65);
     z-index: 1;
     .portfolio-name {
-      font-size: 2em;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      font-size: 2rem;
       font-weight: 600;
       cursor: default;
-      padding-right: 1rem;
       word-spacing: 0.2rem;
+      .headshot {
+        width: 50px;
+        height: 50px;
+        border-radius: 2rem;
+      }
     }
     .right-header {
       display: flex;
