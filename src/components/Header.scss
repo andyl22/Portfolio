@@ -27,22 +27,6 @@ header {
         border-radius: 2rem;
       }
     }
-    .right-header {
-      display: flex;
-      .header-links {
-        display: flex;
-        align-items: center;
-        gap: 30px;
-      }
-      a {
-        font-size: 0.9em;
-        font-weight: 600;
-        color: white;
-        &:hover {
-          color: #ffb4b4;
-        }
-      }
-    }
     @media (max-width: 350px) {
       .portfolio-name {
         font-size: 1rem;
