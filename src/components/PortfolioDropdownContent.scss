@@ -23,8 +23,11 @@
   background: rgb(240, 240, 240);
   font-size: 0.8em !important;
   width: 100%;
+  min-width: 100px;
   &:hover {
-    color: gray;
+    background: #bfbfbf;
+    color: white;
+    font-weight: 600;
   }
 }
 

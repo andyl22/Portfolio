@@ -9,7 +9,7 @@ export default function Projects(props) {
     <section className="project-section">
       <div className="section-info">
         <h1>{sectionTitle}</h1>
-        <p>{sectionDescription}</p>
+        <p className="description">{sectionDescription}</p>
       </div>
       {projectList}
     </section>

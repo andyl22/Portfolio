@@ -26,7 +26,7 @@ export default function Dropdown() {
         rel="noopener noreferrer"
         className="sm-link"
       >
-        <LinkedInIcon fontSize="small" htmlColor="blue" />
+        <LinkedInIcon fontSize="small" htmlColor="#0a66c2" />
         LinkedIn
       </a>
     </div>

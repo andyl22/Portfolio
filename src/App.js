@@ -16,10 +16,10 @@ const main = css`
   padding-bottom: 5rem;
 `;
 
-const animation = keyframes`
+const aboutTextAnimation = keyframes`
   0% {
-    opacity: 0;
-    transform: translateY(-30px);
+    opacity: .3;
+    transform: translateY(-10px);
   }
   100% {
     opacity: 1;
@@ -30,11 +30,24 @@ const aboutText = css`
   max-width: 700px;
   font-size: 1rem;
   padding: 0 2rem 2rem 2rem;
-  animation: ${animation} 1s ease-in;
+  animation: ${aboutTextAnimation} 0.5s ease-in;
+`;
+
+const projectsWrapperAnimation = keyframes`
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+  }
 `;
 
 const projectsWrapper = css`
-  animation: ${animation} 1.5s ease-in;
+  animation: ${projectsWrapperAnimation} 1.3s ease-in;
 `;
 
 export default function HomePage() {
