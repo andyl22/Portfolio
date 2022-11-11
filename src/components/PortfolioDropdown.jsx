@@ -26,10 +26,7 @@ export default function PortfolioDropdown() {
   return (
     <div className="dropdown-container">
       <button ref={dropDownRef} className="dropdown-button">
-        <ListIcon
-          onClick={handleDropDown}
-          className={isActive ? "list-button hovered-button" : "list-button"}
-        />
+        <ListIcon onClick={handleDropDown} className="list-button" />
         {isActive && <PortfolioDropdownContent />}
       </button>
     </div>

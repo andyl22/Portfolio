@@ -16,30 +16,21 @@ const main = css`
   padding-bottom: 5rem;
 `;
 
-const aboutTextAnimation = keyframes`
-  0% {
-    opacity: .3;
-    transform: translateY(-10px);
-  }
-  100% {
-    opacity: 1;
-  }
-`;
-
 const aboutText = css`
   max-width: 700px;
-  font-size: 1rem;
-  padding: 0 2rem 2rem 2rem;
-  animation: ${aboutTextAnimation} 0.5s ease-in;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 3rem 1rem;
 `;
 
 const projectsWrapperAnimation = keyframes`
   0% {
-    opacity: 0;
+    opacity: 0.5;
+    transform: translateY(-30px);
   }
   50% {
-    opacity: 0;
-    transform: translateY(-30px);
+    opacity: 0.5;
+    
   }
   100% {
     opacity: 1;
@@ -47,7 +38,7 @@ const projectsWrapperAnimation = keyframes`
 `;
 
 const projectsWrapper = css`
-  animation: ${projectsWrapperAnimation} 1.3s ease-in;
+  animation: ${projectsWrapperAnimation} 0.5s ease-in;
 `;
 
 export default function HomePage() {
@@ -55,14 +46,7 @@ export default function HomePage() {
     <>
       <Header />
       <main css={main}>
-        <p css={aboutText}>
-          <br />
-          <br />
-          {`Amateur web developer open to entry level or associate opprotunities.`}
-          <br />
-          <br />
-          {`I graduated in 2019 and have worked in software implementation, analytics, and testing since.`}
-        </p>
+        <p css={aboutText}>{`Stuff I've worked on.`}</p>
         <div css={projectsWrapper}>
           <ProjectsContainer />
         </div>

@@ -13,12 +13,10 @@
       border-radius: 20px;
       &:hover {
         cursor: pointer;
-        color: #ffb4b4;
+        filter: brightness(120%);
+        transform: scale(1.1);
+        transition: 0.1s ease-in;
       }
-    }
-    .hovered-button {
-      transform: scale(1.1);
-      transition: 0.1s ease-in;
     }
   }
 }
